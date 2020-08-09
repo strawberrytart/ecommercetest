@@ -1,2 +1,1 @@
-web: gunicorn lsmwebsite.app
-web: gunicorn run:lsmwebsite
+web: gunicorn lsmwebsite.wsgi --log-file -
