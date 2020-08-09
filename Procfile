@@ -1,1 +1,0 @@
-web: gunicorn lsmwebsite.wsgi --log-file -
